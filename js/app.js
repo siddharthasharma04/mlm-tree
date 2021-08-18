@@ -1,4 +1,4 @@
-fetch('../data.json').then((res) => res.json()).then(data => {
+fetch('https://siddharthasharma04.github.io/mlm-tree/data.json').then((res) => res.json()).then(data => {
     formatData(data);
 })
 
